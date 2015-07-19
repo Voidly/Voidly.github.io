@@ -15,12 +15,15 @@
       </header>
 
       {{ content }}
-
+     {% if site.duoshuo_shortname and page.comments == true %}
+     <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}"></div>
+     {% endif %}
       <footer>
         <p>
           This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.en_US">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
         </p>
       </footer>
+      {% include scripts.html %}
     </div>
 
     <!-- scripts -->

@@ -11,3 +11,6 @@ redcarpet:
 sass:
   sass_dir: public/css
   style: :compressed
+
+
+duoshuo_shortname: voidy

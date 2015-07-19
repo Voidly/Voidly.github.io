@@ -1,0 +1,5 @@
+{% if site.duoshuo_shortname and page.comments == true %}
+<div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}">
+</div>
+<!-- /#duoshuo_thread -->
+{% endif %}
