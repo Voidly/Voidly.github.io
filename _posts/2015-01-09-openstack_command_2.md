@@ -4,6 +4,7 @@ layout: post
 date: 2015-01-09 18:08:14
 tags: [Openstack, Openstack command-line]
 categories: [cloud computing]
+comments: true
 ---
 
 上次总结了一些Openstack的常用命令以及Glance相关的常用命令，这次接着上次的总结一下Nova以及Neutron的命令行指令。

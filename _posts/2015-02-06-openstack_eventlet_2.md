@@ -4,6 +4,7 @@ layout: post
 date: 2015-02-06 18:31:29
 tags: [Openstack,cloud computing]
 categories: [cloud computing]
+comments: true
 description: 本文从Nova代码入手，分析了协同并发，介绍了eventlet、greenthread在Nova中的应用
 ---
 昨天介绍了Python中的并发处理，主要介绍了Eventlet，今天就接着谈谈Openstack中Nova对其的应用。

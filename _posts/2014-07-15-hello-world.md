@@ -3,6 +3,7 @@ title: HEXO
 layout: post
 tags: hexo 
 categories: hexo
+comments: true
 ---
 
 ##吐槽

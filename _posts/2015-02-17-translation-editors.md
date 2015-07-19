@@ -3,6 +3,7 @@ title: 程序员编程利器：20款最好的免费的IDEs和编辑器
 layout: post
 date: 2015-02-17 21:35:05
 tags: [Translation,Editors]
+comments: true
 description: 20款最好用的免费IDEs以及编辑器
 ---
 

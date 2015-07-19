@@ -4,6 +4,7 @@ layout: post
 date: 2015-01-18 20:45:17
 tags: [Java,Design Patterns]
 categories: [Java,Design Patterns]
+comments: true
 ---
 "那个，上次由于我老婆要给我做饭，所以就没有说完就走掉了、、、这个那个"。这次和以前一样，先来开场福利（工厂方法模式已被作者踹下场）。由美女抽象工厂介绍一下适用场景~大家欢迎
 

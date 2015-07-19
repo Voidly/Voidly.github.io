@@ -4,6 +4,7 @@ layout: post
 date: 2015-02-09 21:48:08
 tags: [Free,Linux]
 categories: Linux
+comments: true
 description: 本文介绍了Linux中free命令，以及缓冲区与缓存的区别，并举栗说明了free命令常用的参数
 ---
 ##简介

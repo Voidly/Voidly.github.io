@@ -4,6 +4,7 @@ layout: post
 date: 2015-01-16 22:24:37
 tags: [Java,Design Patterns]
 categories: [Java,Design Patterns]
+comments: true
 ---
 “上次是我的不对，贿赂作者让我先讲来着，不过老婆大人大人有大量，不与我计较，这次还让我先把上次未讲完的应用场景部分给补充上去，有妻如此，夫复何求。”（说完，摸了摸跪的发疼的膝盖，咳咳，我发四我没笑！真的！）。
 

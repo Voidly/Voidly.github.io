@@ -4,6 +4,7 @@ layout: post
 date: 2015-02-05 21:36:08
 tags: [Editors,Translation]
 categories: Editors
+comments: true
 description: 只需一行代码，浏览器秒秒钟变成编辑器。
 ---
 

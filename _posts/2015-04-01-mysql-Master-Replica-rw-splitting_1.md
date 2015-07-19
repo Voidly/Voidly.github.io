@@ -4,6 +4,7 @@ layout: post
 date: 2015-04-01 21:13:48
 tags: Mysql
 categories: Mysql
+comments: true
 description: 本篇主要基于CentOS6.5系统实现了Mysql数据库的主从复制
 ---
 

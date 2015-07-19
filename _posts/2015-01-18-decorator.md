@@ -4,6 +4,7 @@ layout: post
 date: 2015-01-18 20:56:04
 tags: [Java,Design Patterns]
 categories: [Java,Design Patterns]
+comments: true
 ---
 “怎么了，鱼哥？”
 

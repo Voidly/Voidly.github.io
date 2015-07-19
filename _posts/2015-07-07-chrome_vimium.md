@@ -4,6 +4,7 @@ layout: post
 date: 2015-07-07 20:10:57
 tags: vimium
 categories: Tools
+comments: true
 description: Chrome的一个插件，像在Vim里面一样在使用Chrome浏览器，完全脱离鼠标 操作
 ---
 

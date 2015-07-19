@@ -4,6 +4,7 @@ layout: post
 date: 2015-01-31 14:36:31
 tags: [Java,Design Patterns]
 categories: [Java,Design Patterns]
+comments: true
 ---
 
 “鱼哥，有没有什么模式是用来处理树形的“部分与整体”的层次结构的啊。”“当然”“没有？”“有啊。别急，一会人就到了。”

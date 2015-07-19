@@ -4,6 +4,7 @@ layout: post
 date: 2015-01-25 11:00:20
 tags: [Java,Design Patterns]
 categories: [Java,Design Patterns]
+comments: true
 ---
 
 “怎么回事，竟然出现了OutOfMemory的错误。鱼哥，来帮我看看啊。”“有跟踪错误原因么？是内存泄露么？”“不是内存泄露啊，具体原因不知道啊。对了，有说新对象申请不到内存空间。”“这个原因么，我曾写过一篇博文：叫OutOfMemory简单分析。不过你的明显是因为代码问题，产生对象太多，导致内存被耗尽，正好一会有堂课，讲的正好能解决你的问题。”（嘿嘿，轮到我享元模式出场了~）

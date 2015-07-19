@@ -4,6 +4,7 @@ layout: post
 date: 2015-02-03 21:39:46
 tags: [Git]
 categories: [Git]
+comments: true
 description: 恢复git使用中，无意使用了git reset --hard后不小心误删的文件
 ---
 

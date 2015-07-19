@@ -4,6 +4,7 @@ layout: post
 date: 2015-04-02 17:10:57
 tags: Mysql
 categories: Mysql
+comments: true
 description: 本篇是上篇的续篇，主要讲了使用mysql-proxy来实现数据库的读写分离
 ---
 

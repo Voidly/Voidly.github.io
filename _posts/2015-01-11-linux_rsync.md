@@ -4,6 +4,7 @@ layout: post
 date: 2015-01-11 11:23:31
 tags: [Rsync,Linux]
 categories: Linux
+comments: true
 ---
 
 #吐槽

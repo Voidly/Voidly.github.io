@@ -4,6 +4,7 @@ layout: post
 date: 2015-01-19 12:12:16
 tags: [Java,Design Patterns]
 categories: [Java,Design Patterns]
+comments: true
 ---
 　“开个商店好麻烦，做个收单的系统，发现类的方法好多。”“真是的，不就是简单的四则运算，这都不会！”你说你会啊。来来来，你把以下的方法用代码写出来：
 

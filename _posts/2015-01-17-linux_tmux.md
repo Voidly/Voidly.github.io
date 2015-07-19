@@ -4,6 +4,7 @@ layout: post
 date: 2015-01-17 23:23:44
 tags: [Linux,Tmux]
 categories: [Linux]
+comments: true
 ---
 
 前些天经朋友介绍认识了一个Linux利器，有了它，就能在Linux机器上为所欲为了，哦不，是更有效率的工作了。这个利器就是传说中的tmux，什么？没听说过，那且容我慢慢道来。

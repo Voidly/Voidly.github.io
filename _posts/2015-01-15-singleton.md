@@ -4,6 +4,7 @@ layout: post
 date: 2015-01-15 21:57:17
 tags: [Java,Design Patterns]
 categories: [Java,Design Patterns]
+comments: true
 ---
 当当当当~首先有请最简单的单例模式登场，先来个自我介绍吧。
 ##单例模式之自我介绍

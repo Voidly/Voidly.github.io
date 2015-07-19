@@ -5,6 +5,7 @@ date: 2015-01-31 23:28:51
 tags: [Java,Design Patterns]
 categories: [Java,Design Patterns]
 description: 有关23种设计模式的汇总
+comments: true
 ---
 
 ##吐槽

@@ -4,6 +4,7 @@ layout: post
 date: 2015-02-13 10:46:34
 tags: hexo
 categories: hexo
+comments: true
 description: 用hexo搭建一个静态博客，并将其托管在gitcafe上的简明教程
 ---
 

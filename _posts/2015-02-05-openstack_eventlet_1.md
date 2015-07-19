@@ -4,6 +4,7 @@ layout: post
 date: 2015-02-05 18:11:44
 tags: [Openstack,cloud computing]
 categories: [cloud computing]
+comments: true
 description: 本文为了便于理解，所以先介绍了一些有关Python的并发知识，详细介绍了Python的协程的知识。
 ---
 

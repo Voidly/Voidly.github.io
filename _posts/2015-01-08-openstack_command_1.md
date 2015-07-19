@@ -4,6 +4,7 @@ layout: post
 date: 2015-01-08 18:11:13
 tags: [Openstack,Openstack command-line]
 categories: [cloud computing]
+comments: true
 ---
 
 ##	常用命令
