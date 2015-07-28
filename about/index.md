@@ -36,8 +36,4 @@ vi/vim、~~eclipse~~、Sublime Text、IDEA、PyCharm
 
 ![](https://github.com/Voidly/Img/blob/master/blog/pay_small.png?raw=true)
 
-也可以点击下面的链接
-
-<form action="https://shenghuo.alipay.com/send/payment/fill.htm" accept-charset="gbk" id="dinggou" method="post" name="dinggou" target="_blank"><input name="" type="submit" value="打赏支持我" class="btn btn-success" /> <input name="optEmail" type="hidden" value="15937167675" /> <input name="memo" type="hidden" value="如果你觉得我的工作对你有帮助，可以请我喝杯茶，谢谢！" /> <input id="payAmount" name="payAmount" type="hidden" value="6.6" /> <input id="title" name="title" type="hidden" value="打赏支持我" /><br /></form>
-
 收到的捐助将用来买书以及分担服务器的开销。
