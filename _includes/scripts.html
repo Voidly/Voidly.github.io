@@ -1,1 +1,5 @@
 {% if page.comments %}{% include duoshuo_comments.html %}{% endif %}
+{% if site.ukagaka %}
+<script src="//cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/ukagaka/wcc.js"></script>
+{% endif %}
