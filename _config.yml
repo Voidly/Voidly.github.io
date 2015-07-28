@@ -12,5 +12,7 @@ sass:
   sass_dir: public/css
   style: :compressed
 
-
 duoshuo_shortname: voidy
+            
+    #blog manager
+ukagaka: true
