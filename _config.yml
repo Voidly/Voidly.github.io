@@ -13,6 +13,7 @@ sass:
   style: :compressed
 
 duoshuo_shortname: voidy
-            
+
     #blog manager
 ukagaka: true
+highlighting-style: monokai
