@@ -1,7 +1,7 @@
 ---
 ---
 
-@import 'syntax';
+@import 'syntax-highlighting/{{ site.highlighting-style }}';
 
 $site-background-color: #f5f5f5;
 $contrast-color: #333;
@@ -131,7 +131,7 @@ footer {
 .highlight {
   padding: 30px;
   border-radius: 6px;
-  background-color: #272822;
+  //background-color: #272822;
   color: #f8f8f2;
   line-height: 1;
 
