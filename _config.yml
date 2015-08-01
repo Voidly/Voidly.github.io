@@ -5,7 +5,7 @@ email: mail@voidy.net
 description: >
     voidy's blog,programing,python,jekyll.
 keywords: "blog,python,linux,vim,reading"
-markdown: kramdown
+markdown: redcarpet
 highlighter: pygments
 permalink: /:title
 
