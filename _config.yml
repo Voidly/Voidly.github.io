@@ -4,8 +4,8 @@ subtitle: stay foolish,stay hungry
 email: mail@voidy.net
 description: >
     voidy's blog,programing,python,jekyll.
-keywords: "blog,python,linux,vim,reading"    
-markdown: redcarpet
+keywords: "blog,python,linux,vim,reading"
+markdown: kramdown
 highlighter: pygments
 permalink: /:title
 

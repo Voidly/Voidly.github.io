@@ -78,18 +78,32 @@ p code {
   white-space: nowrap;
 }
 
+/* -----------------------------------
+  Table
+----------------------------------- */
 table {
+  text-align: right;
+  margin: 1em 0;
+  width: 100%;
+  border-top: 2px solid #333333;
+  border-bottom: 2px solid #333333;
   border-collapse: collapse;
-  border: 1px solid $contrast-color;
-
-  td, th {
-    border: 1px solid $contrast-color;
-    padding: 5px 10px;
-  }
-
-  thead {
-    background-color: darken($site-background-color, 10%);
-  }
+  -webkit-font-feature-settings: 'tnum';
+  /* This is technically redundant */
+  -moz-font-feature-settings: 'tnum';
+  -ms-font-feature-settings: 'tnum';
+}
+thead th {
+  border-bottom: 1px solid #333333;
+  border-collapse: collapse;
+}
+td,
+th {
+  padding: .25em .5em;
+}
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #efefef;
 }
 
 // TODO: make dt smaller
