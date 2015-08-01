@@ -1,8 +1,17 @@
 - url: /
-  title: Home
+  title: 首页
 
-- url: /about
-  title: About
+- url: /tags
+  title: 标签
+
+- url: /categories
+  title: 分类
 
 - url: /blogroll
-  title: Blogroll
+  title: 友链
+
+- url: /about
+  title: 关于
+
+- url: /message
+  title: 留言

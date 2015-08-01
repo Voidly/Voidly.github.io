@@ -1,13 +1,13 @@
 ---
 layout: page
-title: About
+title: 关于
 comments: true
 ---
 
 
 # *About Me*	
 > * 正在向全栈工程师的方向迈进的小小菜鸟一只~
-> * <del>由于所学颇杂，故而打算选择几个深入学习，其中包括Java、</del>开始玩Python、Linux、<del>Openstack</del>Spark、Docker以及算法
+> * ~~由于所学颇杂，故而打算选择几个深入学习，其中包括Java、~~开始玩Python、Linux、~~Openstack~~Spark、Docker以及算法
 > * 伪球迷、伪geek、纯正吃货、纯正书迷、纯正新番爱好者
 
 

@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Blogroll
+title: 友链
 comments: true
 ---
 
+想要交换友链的请在下面留言~
 
 * [耗子][1]
 * [懒懒][2]
