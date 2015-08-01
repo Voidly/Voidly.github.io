@@ -12,7 +12,7 @@
      post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
      post.puts "description: "
      post.puts "modified: #{Time.now.strftime('%Y-%m-%d')}"
-     post.puts "category: personal"
+     post.puts "category: "
      post.puts "tags: []"
      post.puts "comments: true"
      post.puts "mathjax: "     
