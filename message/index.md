@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 吐槽墙
+title: 吐槽
 comments: true
 description: "An archive of posts sorted by categories."
 ---
