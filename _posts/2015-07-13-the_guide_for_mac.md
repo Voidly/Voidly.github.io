@@ -3,8 +3,8 @@ layout: post
 title: "Mac上手指南"
 description: 
 modified: 2015-07-13
-category: personal
-tags: []
+category: Mac
+tags: [Mac]
 comments: true
 ---
 换了mbp之后一直说要写一个Mac相关的指南来着，然而据说我体内的勤奋小人早已被懒惰小人打屎了，今天废了九牛二虎之力，总算暂时性战胜懒惰小人，换得一刻时间，便马不停蹄的来了结这篇博文。

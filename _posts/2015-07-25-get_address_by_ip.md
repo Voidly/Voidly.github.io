@@ -4,7 +4,7 @@ title: "通过ip获取所属地shell脚本实现"
 description: 
 modified: 2015-07-25
 category: shell
-tags: []
+tags: [Linux]
 comments: true
 ---
 ##缘由
