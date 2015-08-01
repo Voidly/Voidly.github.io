@@ -281,3 +281,10 @@ dl,
     background-position: center center;
   }
 }
+pre {
+      display: block;
+      white-space: pre;
+      white-space: pre-wrap;
+      word-break: break-all;
+      word-wrap: break-word;
+    }

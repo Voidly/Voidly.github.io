@@ -18,10 +18,9 @@ vi/vim、~~eclipse~~、Sublime Text、IDEA、PyCharm
 
 
 # *SNS*
-> * Origin Bolg: <http://www.cnblogs.com/voidy/>
-> * Bolg：&emsp;&emsp;&ensp;<http://voidy.net/>
-> * GitHub: &emsp;&ensp; <https://github.com/Voidly>
-> * Mail: 	&emsp;&emsp;&ensp; <yac_yu@163.com>、<voidlly@gmail.com>
+> * [Origin Blog](http://www.cnblogs.com/voidy)
+> * [Blog](http://voidy.net)
+> * [GitHub](https://github.com/Voidly)
 
 
  ~~更新于15年立春~~

@@ -15,6 +15,7 @@
      post.puts "category: personal"
      post.puts "tags: []"
      post.puts "comments: true"
+     post.puts "mathjax: "     
      post.puts "---"
    end
   end

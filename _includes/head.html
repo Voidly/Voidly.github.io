@@ -29,3 +29,8 @@
 
 <!-- feed links -->
 <link rel="alternate" href="{{ site.url }}{{ site.baseurl }}/feed.xml" type="application/rss+xml" title="{{ site.name }}">
+
+  <!-- MathJax -->
+  {% if page.mathjax %}
+  <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.5.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  {% endif %} 

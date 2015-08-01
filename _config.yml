@@ -1,8 +1,15 @@
+#Site settings
+title: voidy
+subtitle: stay foolish,stay hungry
+email: mail@voidy.net
+description: >
+    voidy's blog,programing,python,jekyll.
+keywords: "blog,python,linux,vim,reading"    
 markdown: redcarpet
 highlighter: pygments
 permalink: /:title
 
-url:
+url: "http://voidy.net"
 baseurl:
 
 redcarpet:
