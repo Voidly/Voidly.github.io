@@ -15,3 +15,6 @@
 
 - url: /message
   title: 吐槽
+
+- url: http://voidy.net/feed.xml
+  title: RSS
