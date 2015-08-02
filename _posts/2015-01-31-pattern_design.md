@@ -14,53 +14,80 @@ comments: true
 
 ##设计模式汇总
 
-> [设计模式之序章-UML类图那点事儿](http://voidy.net/2015/01/14/UML/)
+> [设计模式之序章-UML类图那点事儿][1]
 
-> [设计模式之第0章-单例模式(Java实现)](http://voidy.net/2015/01/15/singleton/)
+> [设计模式之第0章-单例模式(Java实现)][2]
 
-> [设计模式之第1章-工厂方法模式(Java实现)](http://voidy.net/2015/01/16/factory_method/)
+> [设计模式之第1章-工厂方法模式(Java实现)][24]
 
-> [设计模式之第2章-抽象工厂模式(Java实现)](http://voidy.net/2015/01/16/abstract_factory/)
+> [设计模式之第2章-抽象工厂模式(Java实现)][3]
 
-> [设计模式之第3章-模板方法模式(Java实现)](http://voidy.net/2015/01/18/template_method/)
+> [设计模式之第3章-模板方法模式(Java实现)][4]
 
-> [设计模式之第4章-装饰模式(Java实现)](http://voidy.net/2015/01/18/decorator/)
+> [设计模式之第4章-装饰模式(Java实现)][5]
 
-> [设计模式之第5章-解释器模式(Java实现)](http://voidy.net/2015/01/19/interpreter/)
+> [设计模式之第5章-解释器模式(Java实现)][6]
 
-> [设计模式之第6章-迭代器模式(Java实现)](http://voidy.net/2015/01/19/iterator/)
+> [设计模式之第6章-迭代器模式(Java实现)][7]
 
-> [设计模式之第7章-外观模式(Java实现)](http://voidy.net/2015/01/20/facade/)
+> [设计模式之第7章-外观模式(Java实现)][8]
 
-> [设计模式之第8章-策略模式(Java实现)](http://voidy.net/2015/01/21/strategy/)
+> [设计模式之第8章-策略模式(Java实现)][9]
 
-> [设计模式之第9章-原型模式(Java实现)](http://voidy.net/2015/01/22/prototype/)
+> [设计模式之第9章-原型模式(Java实现)][10]
 
-> [设计模式之第10章-桥接模式(Java实现)](http://voidy.net/2015/01/23/bridge/)
+> [设计模式之第10章-桥接模式(Java实现)][11]
 
-> [设计模式之第11章-建造者模式(Java实现)](http://voidy.net/2015/01/24/builder/)
+> [设计模式之第11章-建造者模式(Java实现)][12]
 
-> [设计模式之第12章-享元模式(Java实现)](http://voidy.net/2015/01/25/flyweight/)
+> [设计模式之第12章-享元模式(Java实现)][13]
 
-> [设计模式之第13章-职责链模式(Java实现)](http://voidy.net/2015/01/26/chain_of_responsibility/)
+> [设计模式之第13章-职责链模式(Java实现)][14]
 
-> [设计模式之第14章-命令模式(Java实现)](http://voidy.net/2015/01/26/command/)
+> [设计模式之第14章-命令模式(Java实现)][15]
 
-> [设计模式之第15章-适配器模式(Java实现)](http://voidy.net/2015/01/27/adapter/)
+> [设计模式之第15章-适配器模式(Java实现)][16]
 
-> [设计模式之第16章-代理模式(Java实现)](http://voidy.net/2015/01/28/proxy/)
+> [设计模式之第16章-代理模式(Java实现)][17]
 
-> [设计模式之第17章-备忘录模式(Java实现)](http://voidy.net/2015/01/29/memento/)
+> [设计模式之第17章-备忘录模式(Java实现)][18]
 
-> [设计模式之第18章-观察者模式(Java实现)](http://voidy.net/2015/01/30/observer/)
+> [设计模式之第18章-观察者模式(Java实现)][19]
 
-> [设计模式之第19章-中介者模式(Java实现)](http://voidy.net/2015/01/31/mediator/)
+> [设计模式之第19章-中介者模式(Java实现)][20]
 
-> [设计模式之第20章-访问者模式(Java实现)](http://voidy.net/2015/01/31/visitor/)
+> [设计模式之第20章-访问者模式(Java实现)][21]
 
-> [设计模式之第21章-状态模式(Java实现)](http://voidy.net/2015/01/31/state/)
+> [设计模式之第21章-状态模式(Java实现)][22]
 
-> [设计模式之第22章-组合模式(Java实现)](http://voidy.net/2015/01/31/composite/)
+> [设计模式之第22章-组合模式(Java实现)][23]
+
+
+[1]: http://voidy.net/UML/
+[2]: http://voidy.net/singleton/
+[3]: http://voidy.net/abstract_factory/
+[4]: http://voidy.net/template_method/
+[5]: http://voidy.net/decorator/
+[6]: http://voidy.net/interpreter/
+[7]: http://voidy.net/iterator/
+[8]: http://voidy.net/facade/
+[9]: http://voidy.net/strategy/
+[10]: http://voidy.net/prototype/
+[11]: http://voidy.net/bridge/
+[12]: http://voidy.net/builder/
+[13]: http://voidy.net/flyweight/
+[14]: http://voidy.net/chain_of_responsibility/
+[15]: http://voidy.net/command/
+[16]: http://voidy.net/adapter/
+[17]: http://voidy.net/proxy/
+[18]: http://voidy.net/memento/
+[19]: http://voidy.net/observer/
+[20]: http://voidy.net/mediator/
+[21]: http://voidy.net/visitor/
+[22]: http://voidy.net/state/
+[23]: http://voidy.net/composite/
+[24]: http://voidy.net/factory_method/
+
 
 ##参考书目
 
