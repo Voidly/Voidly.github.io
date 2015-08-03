@@ -25,13 +25,13 @@ layout: default
     <div class="post-footer">
         <div class="column-1">
         {% if page.previous %}
-            <a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title }}" rel="bookmark">&laquo; 上一页:{{ page.previous.title }}</a>
+            <a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title }}" rel="bookmark">&laquo; 上一篇:{{ page.previous.title }}</a>
         {% endif %}
         </div>
         <div class="column-2"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }} ">Home</a></div>
         <div class="column-3">
         {% if page.next %}
-            <a href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title }}" rel="bookmark">下一页:{{page.next.title}} &raquo;</a>
+            <a href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title }}" rel="bookmark">下一篇:{{page.next.title}} &raquo;</a>
         {% endif %}
         </div>
         {% if site.data.social.duoshuo_shortname and page.comments == true %}
