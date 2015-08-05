@@ -1,5 +1,35 @@
 <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=3)" width="80%" color=#987cb9 SIZE=3>
 
+
+<div class="related">
+     <h4>Related Posts</h2>
+     <ul class="posts">
+         {% for post in site.related_posts limit:3 %}
+         <li>
+           <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date_to_string }} &raquo;</time>
+           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+         </li>
+         {% endfor %}
+     </ul>
+ </div>
+
+ <div class="post-footer">
+     <div class="column-1">
+     {% if page.previous %}
+         <a href="{{ page.previous.url | prepend: site.baseurl }}" title="{{ page.previous.title }}" rel="bookmark">&laquo; 上一篇:{{ page.previous.title }}</a>
+     {% endif %}
+     </div>
+     <div class="column-2"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }} ">Home</a></div>
+     <div class="column-3">
+     {% if page.next %}
+         <a href="{{ page.next.url | prepend: site.baseurl }}" title="{{ page.next.title }}" rel="bookmark">下一篇:{{page.next.title}} &raquo;</a>
+     {% endif %}
+     </div>
+     {% if site.data.social.duoshuo_shortname and page.comments == true %}
+     <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ site.url }}{{ page.url }}"></div>
+     {% endif %}
+ </div>
+
 <h2>打賞我</h2>
 <p>如果你觉得我的博文对你有帮助，你可以请我喝杯茶。<br>
 使用手机支付宝扫描下方的二维码资助本站，金额自定。</p>
