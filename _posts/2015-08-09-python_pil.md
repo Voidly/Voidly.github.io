@@ -11,7 +11,7 @@ mathjax:
 {% highlight linenos %}
 {% endhighlight %}
 
-今天无意间看到了python的PIL，于是便想搞个验证码的图片玩玩，首先自然是安装PIL咯，有关安装的pip和easy_install两种方式不明的同学请戳[Python: What's PyPi, pip, easy_install, setuptools?][2]和[pip vs easy_install][3]。
+今天无意间看到了python的PIL-Python Imaging Library，于是便想搞个验证码的图片玩玩，首先自然是安装PIL咯，有关安装的pip和easy_install两种方式不明的同学请戳[Python: What's PyPi, pip, easy_install, setuptools?][2]和[pip vs easy_install][3]。
 
 ##安装出BUG
 
@@ -75,7 +75,12 @@ image.save('code.jpg', 'jpeg');
 
 ![][1]
 
+##小结
+
+如果你觉得不过瘾，可以去[这里][4]深入了解图像处理的各种功能，包括翻转、剪切、颜色变换 and the like。
+
 
 [1]:https://github.com/Voidly/Img/blob/master/blog/code.jpg?raw=true
 [2]:http://xahlee.info/python/python_whats_pip_easyinstall_setuptools.html
 [3]:https://packaging.python.org/en/latest/pip_easy_install.html
+[4]:http://effbot.org/imagingbook/introduction.htm
