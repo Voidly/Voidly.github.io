@@ -1,4 +1,4 @@
-#Site settings
+# Site settings
 title: voidy
 subtitle: stay foolish,stay hungry
 email: mail@voidy.net
@@ -15,12 +15,19 @@ baseurl:
 redcarpet:
   extensions: [strikethrough, tables]
 
+# Plugins
+whitelist: []
+gems:         ["jekyll-mentions", "jemoji", "jekyll-redirect-from"]
+
 sass:
   sass_dir: public/css
   style: :compressed
 
+# comments
 duoshuo_shortname: voidy
 
-    #blog manager
+# blog manager
 ukagaka: true
+
+# code theme    
 highlighting-style: monokai
