@@ -24,7 +24,14 @@ mathjax:
 
 ##文件结构
 
-其中主要文件包括图像文件images、html文件、配置文件manifest.json以及js文件。扩展被安装后，Chrome就会读取扩展中的manifest.json文件，这个文件的文件名固定为manifest.json，内容是按照一定格式描述的扩展相关信息，如扩展名称、版本、更新地址、请求的权限、扩展的UI界面入口等等。这样Chrome就可以知道在浏览器中如何呈现这个扩展，以及这个扩展如何同用户进行交互。
+其中主要文件包括:
+
+* 图像文件images
+* html文件
+* 配置文件manifest.json
+* js文件。
+
+扩展被安装后，Chrome就会读取扩展中的manifest.json文件，这个文件的文件名固定为manifest.json，内容是按照一定格式描述的扩展相关信息，如扩展名称、版本、更新地址、请求的权限、扩展的UI界面入口等等。这样Chrome就可以知道在浏览器中如何呈现这个扩展，以及这个扩展如何同用户进行交互。
 
 ##需求介绍
 
@@ -32,7 +39,12 @@ mathjax:
 
 ##代码实现
 
-首先创建一个clock文件夹，包含以下内容：一个images文件夹、一个js文件夹、一个manifest.json文件以及一个popup.html文件。
+首先创建一个clock文件夹，包含以下内容：
+
+* 一个images文件夹
+* 一个js文件夹
+* 一个manifest.json文件
+* 一个popup.html文件。
 
 首先，我们需要了解manifest.json都有哪些内容:
 
@@ -164,11 +176,14 @@ my_clock(clock_div);
 
 当然，你同样可以点击“加载正在开发的扩展程序”，选择扩展所在的文件夹，就可以在浏览器工具栏中看到我们的扩展了。
 
+源码在[这里][9]。
+
 ##参考文献
 
-> * [谷歌官方文档简版][5]
-> * [谷歌官方文档全版][6]
-> * [360极速浏览器开放应用平台][7]
+> * [https://developer.chrome.com/extensions/getstarted][5]
+> * [https://developer.chrome.com/extensions/overview][6]
+> * [http://open.chrome.360.cn/extension_dev/overview.html][7]
+> * [http://www.ituring.com.cn/minibook/950][8]
 
 
 
@@ -179,3 +194,5 @@ my_clock(clock_div);
 [5]:https://developer.chrome.com/extensions/getstarted
 [6]:https://developer.chrome.com/extensions/overview
 [7]:http://open.chrome.360.cn/extension_dev/overview.html
+[8]:http://www.ituring.com.cn/minibook/950
+[9]:https://github.com/Voidly/chrome-extensions/tree/master/clock
