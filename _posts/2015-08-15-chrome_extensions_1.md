@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Voidly
 title: "1分钟制作简单chrome扩展应用"
 description: 
 modified: 2015-08-15
