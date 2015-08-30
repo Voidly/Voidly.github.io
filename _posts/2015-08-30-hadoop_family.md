@@ -48,11 +48,9 @@ Hadoop框架透明地为应用提供可靠性和数据移动。它实现了名�
 
 ##参考资料
 
-> http://blog.fens.me/hadoop-family-roadmap/
-> 
-> http://wiki.apache.org/hadoop/
-> 
-> https://zh.wikipedia.org/wiki/Apache_Hadoop
+> * <http://blog.fens.me/hadoop-family-roadmap/>
+> * <http://wiki.apache.org/hadoop/>
+> * <https://zh.wikipedia.org/wiki/Apache_Hadoop>
 
 
 [1]:http://hadoop.apache.org/
