@@ -143,6 +143,34 @@ int main(void)
 
 **忙(懒)而未写，有待补充**
 
+##运行
+
+{% highlight bash %}
+yacc -dv calc.y
+{% endhighlight %}
+
+会生成`yacc`的两个文件，分别是`y.tab.c`和`y.tab.h`。
+
+{% highlight bash %}
+lex calc.l
+{% endhighlight %}
+
+会生成`lex.yy.c`文件。其中`y.tab.c`包含`yacc`生成的语法分析器的代码，`lex.yy.c`是词法分析器的代码，为了将`calc.y`中定义的记号以及联合体传给`lex.yy.c`，yacc会生成`y.tab.h`的头文件。
+
+{% highlight bash %}
+cc -o calc y.tab.c lex.yy.c
+{% endhighlight %}
+
+生成可执行文件calc。
+
+然后运行
+{% highlight bash %}
+./calc
+{% endhighlight %}
+
+然后就可以使用计算器咯~
+
+
 
 ##参考资料
 
