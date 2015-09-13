@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "git小记"
+title: "Git小记"
 description: 
 modified: 2015-09-13
 category: Git
