@@ -83,7 +83,7 @@ comments: true
 	    public <T extends Food> T createFood(Class<T> c){
 	        Food food = null;
 	        try{
-	            foor = (T)Class.forName(c.getName()).newInstance();
+	            food = (T)Class.forName(c.getName()).newInstance();
 	        }
 	        catch(Exception e){
 	            System.out.println("食物生产失败！");
