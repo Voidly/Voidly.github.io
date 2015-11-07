@@ -3,8 +3,8 @@ layout: post
 title: "Tips:screen中kill掉多个会话"
 description: 
 modified: 2015-11-05
-category: 
-tags: []
+category: Linux
+tags: [Linux,Tips]
 comments: true
 mathjax: 
 ---
