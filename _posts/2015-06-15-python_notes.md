@@ -3,8 +3,8 @@ layout: post
 title: "python拾遗"
 description: 
 modified: 2015-06-15
-category: python
-tags: [python]
+category: Python
+tags: [Python]
 comments: true
 mathjax: 
 ---
