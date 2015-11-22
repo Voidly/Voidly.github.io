@@ -432,7 +432,7 @@ var WCC = {
 			if (days > 0) str += ' <font color="red">' + days + "</font> 天";
 			if (hours > 0) str += ' <font color="red">' + hours + "</font> 小时";
 			if (minutes > 0) str += ' <font color="red">' + minutes + "</font> 分钟";
-			if (seconds > 0) str += ' <font color="red">' + seconds + "</font> 分钟";
+			if (seconds > 0) str += ' <font color="red">' + seconds + "</font> 秒";
 			return str;
 		},
 
