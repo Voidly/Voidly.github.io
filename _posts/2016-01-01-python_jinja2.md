@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "python_Jinja2"
+title: "Jinja2模板小记"
 description: 
 modified: 2016-01-01
 category: Python
