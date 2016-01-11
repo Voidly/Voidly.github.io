@@ -100,7 +100,7 @@ print template.render(the='variables', go='here')
 
 ##基本语法
 
-####`{% ... %}` 和 `{{ ... }}` 
+####\{\% ... \%\} 和 \{\{ ... \}\} 
 
 前者用于执行诸如 for 循环 或赋值的语句，后者把表达式的结果打印到模板上。
 
@@ -134,8 +134,8 @@ print template.render(the='variables', go='here')
 栗子：
 
 {% highlight python linenos %}
-{% if loop.index is divisibleby 3 %}
-{% if loop.index is divisibleby(3) %}
+\{\% if loop.index is divisibleby 3 \%\}
+\{\% if loop.index is divisibleby(3) \%\}
 {% endhighlight %}
 
 ####注释
