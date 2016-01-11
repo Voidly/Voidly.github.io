@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "《大型网站系统与Java中间件实践》读书摘要"
+title: "<大型网站系统与Java中间件实践>读书摘要"
 description: 
 modified: 2016-01-08
 category: Web
