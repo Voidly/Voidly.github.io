@@ -52,7 +52,7 @@ logging.basicConfig(filename='app.log', format='%(asctime)s  %(levelname)s:%(mes
   logging.debug('Ended')
 {% endhighlight %}
 
-##使用logger模块
+##二、使用logger模块
 
 使用logger模块可以自定义自己的日志系统，然后使用不同的hadler来设置不同的日志类型，在使用的时候视场景来使用不同的hadler以及格式，产生不同的输出。
 
@@ -96,7 +96,7 @@ logger.error('error message')
 logger.critical('critical message')
 {% endhighlight %}
 
-##使用logger+config文件
+##三、使用logger+config文件
 
 写logger，当配置很多的情况下，代码逻辑就会比较多，可读性就会降低，而且还不易于维护，可扩展性也会比较差，这时候就可以将配置单独拿出来，写在`logging.conf`文件中，然后在调用时直接使用其中某个配置、某个格式的logger的handler就好了。具体示例如下：
 
@@ -161,3 +161,9 @@ logger.error('error message')
 logger.critical('critical message')
 {% endhighlight %}
 
+
+##References
+
+> * https://docs.python.org/2/howto/logging.html#logging-basic-tutorial
+> * http://python.usyiyi.cn/python_278/library/logging.html
+> * https://docs.python.org/2/howto/logging-cookbook.html
