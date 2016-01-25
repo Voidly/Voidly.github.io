@@ -15,6 +15,7 @@ comments: true
 * [coolshell][6]
 * [Sanaeの空想庭园][8]
 * [wwy宅][9]
+* [另一个人·宙斯][10]
 
 
 
@@ -27,3 +28,4 @@ comments: true
 [7]: http://blog.ibrother.me/
 [8]: http://blog.kochiya.me/
 [9]: http://wenye.wang/
+[10]: http://www.lygrzs.com/
