@@ -30,7 +30,6 @@ mathjax:
 
 
 {% highlight bash linenos %}
-
 #!/bin/bash
 # iterm2-recv-zmodem.sh
 
@@ -54,7 +53,6 @@ fi
 
 
 {% highlight bash linenos %}
-
 #!/bin/bash
 # iterm2-send-zmodem.sh
 
@@ -72,7 +70,6 @@ else
 	echo \# Received $FILE
 	echo
 fi
-
 {% endhighlight %}
 
 ####3.在iTerm 2添加Triggers
