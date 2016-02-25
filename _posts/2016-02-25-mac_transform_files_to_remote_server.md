@@ -28,11 +28,14 @@ mathjax:
 
 ####2.将 `iterm2-send-zmodem.sh` 和 `iterm2-recv-zmodem.sh`脚本保存在 `/usr/local/bin/`
 
+
 {% highlight bash linenos %}
+
 #!/bin/bash
 # iterm2-recv-zmodem.sh
 
 FILE=`osascript -e 'tell application "iTerm" to activate' -e 'tell application "iTerm" to set thefile to choose folder with prompt "Choose a folder to place received files in"' -e "do shell script (\"echo \"&(quoted form of POSIX path of thefile as Unicode text)&\"\")"`
+
 if [[ $FILE = "" ]]; then
 	echo Cancelled.
 	# Send ZModem cancel
@@ -51,10 +54,12 @@ fi
 
 
 {% highlight bash linenos %}
+
 #!/bin/bash
 # iterm2-send-zmodem.sh
 
 FILE=`osascript -e 'tell application "iTerm" to activate' -e 'tell application "iTerm" to set thefile to choose file with prompt "Choose a file to send"' -e "do shell script (\"echo \"&(quoted form of POSIX path of thefile as Unicode text)&\"\")"`
+
 if [[ $FILE = "" ]]; then
 	echo Cancelled.
 	# Send ZModem cancel
@@ -67,13 +72,14 @@ else
 	echo \# Received $FILE
 	echo
 fi
+
 {% endhighlight %}
 
 ####3.在iTerm 2添加Triggers
 
 打开iTerm的Preferences，或者使用`command`+`,`，点进Profiles项，Advanced项,进入Tirggers，点击Edit，添加两条规则：
 
-{% highlight linenos %}
+{% highlight bash linenos %}
 Regular expression: rz waiting to receive.\*\*B0100
 Action: Run Silent Coprocess
 Parameters: /usr/local/bin/iterm2-send-zmodem.sh
