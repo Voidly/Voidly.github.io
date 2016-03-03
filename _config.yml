@@ -5,7 +5,7 @@ email: mail@voidy.net
 description: >
     voidy's blog,programing,python,jekyll.
 keywords: "blog,python,linux,vim,reading"
-markdown: redcarpet
+markdown: kramdown
 highlighter: rouge
 permalink: /:title
 
@@ -29,5 +29,5 @@ duoshuo_shortname: voidy
 # blog manager
 ukagaka: true
 
-# code theme    
+# code theme
 highlighting-style: monokai
