@@ -6,7 +6,7 @@ description: >
     voidy's blog,programing,python,jekyll.
 keywords: "blog,python,linux,vim,reading"
 markdown: redcarpet
-highlighter: rouge
+highlighter: pygment
 permalink: /:title
 
 url: "http://voidy.net"
