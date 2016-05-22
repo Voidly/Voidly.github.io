@@ -17,8 +17,6 @@
      post.puts "comments: true"
      post.puts "mathjax: "     
      post.puts "---"
-     post.puts "{% highlight linenos %}"
-     post.puts "{% endhighlight %}"
    end
   end
 
