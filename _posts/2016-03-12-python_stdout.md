@@ -2,7 +2,7 @@
 layout: post
 title: "python的stdout与stdin"
 description: 
-modified: 2016-05-22
+modified: 2016-03-12
 category: python
 tags: [python,stdout]
 comments: true
