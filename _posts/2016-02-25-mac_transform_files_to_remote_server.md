@@ -15,9 +15,9 @@ mathjax:
 
 （PS：不要问为嘛不使用scp，因为种种原因无法使用，而且有了这个之后即使可以使用scp我也不会用了，为嘛？懒！输命令很麻烦！ip记不住更麻烦！）
 
-##安装配置
+## 安装配置
 
-####1.安装lrzsz
+#### 1.安装lrzsz
 
 使用`brew install lrzsz`。如果安装遇到错误的话，使用以下方法：
 
@@ -26,7 +26,7 @@ mathjax:
 - 将下载的文件放到`~/Library/Caches/Homebrew`目录下
 - `brew install lrzsz`
 
-####2.将 `iterm2-send-zmodem.sh` 和 `iterm2-recv-zmodem.sh`脚本保存在 `/usr/local/bin/`
+#### 2.将 `iterm2-send-zmodem.sh` 和 `iterm2-recv-zmodem.sh`脚本保存在 `/usr/local/bin/`
 
 
 {% highlight bash linenos %}
@@ -72,7 +72,7 @@ else
 fi
 {% endhighlight %}
 
-####3.在iTerm 2添加Triggers
+#### 3.在iTerm 2添加Triggers
 
 打开iTerm的Preferences，或者使用`command`+`,`，点进Profiles项，Advanced项,进入Tirggers，点击Edit，添加两条规则：
 
@@ -88,15 +88,15 @@ Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
 
 至此，所有配置完成。下面就可以使用黑科技来传输文件了。
 
-##使用方法
+## 使用方法
 
-####将文件传到远端服务器
+#### 将文件传到远端服务器
 
 1. 在远端服务器上输入`rz`，回车
 2. 选择本地要上传的文件
 3. 等待上传
 
-####从远端服务器下载文件
+#### 从远端服务器下载文件
 
 1. 在远端服务器输入`sz filename filename1 ... filenameN`
 2. 选择本地的存储目录
@@ -105,6 +105,6 @@ Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
 **PS:**远端服务器也需要安装lrzsz。centOS安装方法：
 `yum -y install lrzsz`
 
-##参考
+## 参考
 
 > https://github.com/mmastrac/iterm2-zmodem
