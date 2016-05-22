@@ -97,3 +97,10 @@ Kafka最初由LinkedIn公司基于独特的设计实现为一个分布式的提�
 * 一个分区只能用单个盘
 * 均衡日志数据是粒度只能到broker
 * 由于设计轻，因此broker不保存消费者的状态，需要借助zookeeper保存
+
+
+## 参考
+
+> *  http://kafka.apache.org/documentation.html
+> *  http://www.infoq.com/cn/articles/apache-kafka/
+> * https://www.iron.io/top-10-uses-for-message-queue/
